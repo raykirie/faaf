@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app_page{
+    background-color: pink;
+    width: 100%;
+    height: 1000px;
+}
+.main > img {
+    margin-top: 120px;
+    margin-left: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main_btn {
+    margin-left: 670px;
 }
 
-.App-link {
-  color: #61dafb;
+.main_btn > button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-right: 150px;
+}
+.no > img {
+    margin-top: 120px;
+    margin-left: 30%;
+}
+.no > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px; 
+}
+.no_btn {
+    display: flex;
+    flex-direction: row;
+}
+.no_btn > button {
+    margin-left: 670px;
+}
+.no_btn > button:last-child{
+    margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no_btn > button {
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 60px;
+    border: none;
+    font-size: 15px;
+}
+
+.cry > img {
+    margin-top: 120px;
+    margin-left: 30%; 
+}
+
+.cry > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px;
+}
+
+.cry > button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-left: 750px; 
+}
+
+.eat > img {
+    margin-top: 120px;
+    margin-left: 30%; 
+}
+
+.eat > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px;
+}
+
+.eat > button {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-left: 750px; 
+}
+
+.typ > img {
+    margin-top: 120px;
+    margin-left: 30%;
+}
+
+.typ > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px;
+}
+
+.typ > button {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-left: 750px;
+}
+
+.we > img {
+    margin-top: 120px;
+    margin-left: 30%;
+
+}
+
+.we > p {
+    margin-left: 320px;
+    color: white;
+    font-size: 80px;
+}
+
+.we > button{
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-left: 750px;
+}
+.last {
+    background-color: pink;
+    width: 100%;
+}
+.last > p {
+    margin-left: 600px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 80px;
+}
+.last_img  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
